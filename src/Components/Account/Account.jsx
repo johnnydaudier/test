@@ -1,8 +1,15 @@
+import Peng from "../Peng/Peng";
+
+
 function Account () {
     return (
-        <div className="back2">
-            <h2>Account...</h2>
-        </div>
+        < >
+                <p className="letra">Working on it! </p>
+                <Peng/> 
+                <div className="fade">
+                    
+                </div>
+        </>
     )
 }
 

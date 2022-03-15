@@ -1,8 +1,13 @@
+import Peng from "../Peng/Peng";
 function Cart() {
     return (
-        <div className="back2">
-            <h2>  CART </h2>
-        </div>
+        < >
+                <p className="letra">Cart is coming soon aswell...</p>
+                <Peng/> 
+                <div className="fade">
+                    
+                </div>
+        </>
     )
 }
 

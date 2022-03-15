@@ -41,11 +41,10 @@ function ItemListContainer({greeting}) {
     return (
         <>
             { !load  //ask false
-            ? <Loading/> //yes
-            : <ItemList prods={products}  /> // no
-            
-        }  
-      <p>{greeting}</p>          
+                ? <Loading/> //yes
+                : <ItemList productos={products}  /> // no            
+            }  
+            <p>{greeting}</p>          
         </>
     )
 

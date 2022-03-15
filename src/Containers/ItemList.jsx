@@ -1,13 +1,14 @@
 import Item from "./Item";
-import { products } from "./getFetch";
 
-function ItemList({prod}){
-    return  products.map( (produ) => 
-    <div>
-        <Item prod={produ}/>         
-    </div>
-    );   
-    
+
+const ItemList = ({productos}) => {
+    return (
+        
+         productos.map((prod) =>  <Item producto={prod}/>         
+        
+        )  
+     )   
+        
 }
 
 export default ItemList; 
