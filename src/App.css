@@ -56,6 +56,10 @@ button {
   padding-left: 0.3rem;
   padding-right: 0.3rem;
 }
+button .finishButton {
+  background-color: #368f66 ;
+  color: #c3cfc5;
+}
 
 span {
   padding-left: 20px;
@@ -142,6 +146,7 @@ body {
   position: relative;
   top: 30px;
 }
+
 
 /*                        PENG             */
 

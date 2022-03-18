@@ -1,4 +1,5 @@
 import { useState } from "react";
+import ChangeButtons from "../Components/ChangeButtons/ChangeButtons";
 
 function ItemCount({stock, initial}) {
     const  [count, setCount] = useState(initial);
@@ -14,38 +15,27 @@ function ItemCount({stock, initial}) {
     } 
      if(stockToRender){
         return (
-            <>
-                
-                
+            <>         
                 <div>
                      <button  onClick={ minusOne }>-</button><span>{count}</span><button  onClick={ plusOne }>+</button> 
-                </div>
-                    
-                
+                </div>                         
                 <br/>
-                <button onClick={ print }> Agregar al carrito </button>
+
+                <ChangeButtons/>
     
             </>
         )
      }else {
         return (
-            <>
-                
-                
+            <>         
                 <div>
                     <button  onClick={ minusOne }>-</button><span>{count}</span>
-                </div>
-                    
-                
+                </div>          
     
-                <button onClick={ print }> Agregar al carrito </button>
-    
+                <ChangeButtons/>
             </>
         )
-     }
-    
+    }    
 }
-
-
 export default ItemCount;
 

@@ -12,3 +12,13 @@ function Cart() {
 }
 
 export default Cart;
+
+// const k = key === 'a' ||  key === 'e' || key === 'i' || key === 'o' || key === 'u';
+// const sinVocales = (e) => {
+//  if (e.key === k){
+//      e.preventDefault();
+//  }
+// }
+// sinVocales();
+
+

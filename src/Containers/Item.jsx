@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import ItemCount from "./ItemCount";
+
 function Item({producto}) {
     return (
         <div key={producto.id}className="col-md-4">
@@ -14,6 +15,7 @@ function Item({producto}) {
                     </NavLink>
                     <br/>
             <ItemCount initial={1} stock={7}/>
+            
                 </div>
             </div>
         </div>

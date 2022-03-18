@@ -19,7 +19,7 @@ function ItemListContainer({greeting}) {
                 return resp
             })
             .then(resp => setProducts(resp.filter(pro => pro.categoria===categoriaId) ))
-            .then(console.log(categoriaId))
+            
             .catch(err => console.log('Error cargando productos'))
             .finally(() => setLoad(true))
 
