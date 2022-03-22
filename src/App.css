@@ -46,6 +46,10 @@
   max-width: 35px;
   max-width: 35px;
 } 
+.cartInsideImg{
+  max-width: 250px;
+  max-width: 250px;
+}
 button {
   border-radius: 80%;
   background-color: #8f367C; ;

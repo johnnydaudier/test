@@ -26,8 +26,7 @@ function ItemListContainer({greeting}) {
         }else{
 
             getFetch
-            .then((response)=> {
-                
+            .then((response)=> {                
                 return response;
             })
             .then((response) => setProducts(response))
@@ -40,9 +39,9 @@ function ItemListContainer({greeting}) {
     
     return (
         <>
-            { !load  //ask false
-                ? <Loading/> //yes
-                : <ItemList productos={products}  /> // no            
+            { !load ? <Loading/> //yes
+                    : 
+                    <ItemList productos={products}  /> // no            
             }  
             <p>{greeting}</p>          
         </>

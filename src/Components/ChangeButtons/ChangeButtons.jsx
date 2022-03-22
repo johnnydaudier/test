@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 const CartButton = () => {
     return (
         <Link to='/cart'>        
-                    <button className="finishButton" onClick={ ()=> console.log('yendo a cart')} > Finalizar compra</button>
+                    <button className="finishButton" onClick={ ()=> console.log('yendo a cart')} > Ver en el carrito </button>
         </Link>
     )
 }
