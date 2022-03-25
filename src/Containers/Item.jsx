@@ -4,7 +4,7 @@ import {  Link } from "react-router-dom";
 function Item({producto}) {
     return (
         <div 
-        key={producto.id}
+        
         className="col-md-4">
 
             <div className="card w-100 mt-5">
@@ -13,7 +13,7 @@ function Item({producto}) {
                     <h5 className="card-title">{`${producto.name}`}</h5>
                     <p>$ {producto.price}</p>
                     <p className="card-text">{producto.description}</p>
-                    <Link to={`detalle/${producto.id}`}>
+                    <Link to={`/detalle/${producto.id}`}>
                        <button>Detalles</button> <br/>
                     </Link>
                 </div>

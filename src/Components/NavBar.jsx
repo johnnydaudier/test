@@ -1,4 +1,6 @@
 import { NavLink } from "react-router-dom";
+import IconBadge from "./Cart/IconBadge";
+
 import CartIconComponent from "./CartIconComponent";
 import PepeIcon from "./PepeIcon";
 
@@ -53,11 +55,11 @@ function NavBar () {
           <button className="btn btn-outline-success" type="submit">Buscar</button>
           <span>
               <NavLink to='/cart'> 
-                  {<CartIconComponent />} 
-              
-              </NavLink>
+                  {<CartIconComponent />}
+              </NavLink>                      
           </span>
           
+         
         </form>
       </div>
     </div> 

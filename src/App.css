@@ -43,6 +43,7 @@
   }
 }
 .cartImg{
+  position: relative;
   max-width: 35px;
   max-width: 35px;
 } 
@@ -149,6 +150,24 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   position: relative;
   top: 30px;
+}
+.icon-bagde {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  width: 30px;
+  height: 30px;
+  background: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  border-radius: 50%;
+  
+ 
+}
+.icon-bagde:hover {
+  cursor: pointer;
 }
 
 
