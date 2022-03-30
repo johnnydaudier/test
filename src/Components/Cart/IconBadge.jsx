@@ -1,19 +1,7 @@
-import { Link } from "react-router-dom"
-import { useCartContext } from "../../Context/CartContext"
 
-const { cartCount } =  useCartContext;
-
-
-const IconBadge = () => {
+const IconBadge = ({num}) => {
     
-        return (
-                    <Link>                    
-                         <h5 className="icon-badge">{cartCount}</h5>
-                    </Link>
-        )
-   
-
+        return  <h6 className="icon-badge">{num}</h6>                  
+        
     }
-
-
 export default IconBadge

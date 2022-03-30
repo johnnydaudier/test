@@ -153,8 +153,8 @@ body {
 }
 .icon-bagde {
   position: absolute;
-  top: -10px;
-  right: -10px;
+  top: 10px;
+  right: -5px;
   width: 30px;
   height: 30px;
   background: red;
