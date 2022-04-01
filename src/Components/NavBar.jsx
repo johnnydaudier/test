@@ -1,15 +1,9 @@
-import { Link, NavLink } from "react-router-dom";
-import IconBadge from "./Cart/IconBadge";
-
+import { NavLink } from "react-router-dom";
 import CartIconComponent from "./CartIconComponent";
 import PepeIcon from "./PepeIcon";
-
-
-
  
 function NavBar () {
-    return (
-        
+    return (        
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
     <div className="container-fluid">
        
@@ -58,17 +52,12 @@ function NavBar () {
                   {<CartIconComponent />}                  
               </NavLink>                      
           </span> 
-          
-          
-          
-         
         </form>
       </div>
     </div> 
   </nav>
         
     )
-  }
-  
+  }  
   export default NavBar;
   

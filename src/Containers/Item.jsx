@@ -1,10 +1,8 @@
 import {  Link } from "react-router-dom";
 
-
 function Item({producto}) {
     return (
-        <div 
-        
+        <div         
         className="col-md-4">
 
             <div className="card w-100 mt-5">
@@ -22,5 +20,4 @@ function Item({producto}) {
 
     )
 }
-
 export default  Item;

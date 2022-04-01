@@ -1,6 +1,5 @@
 function Peng() {
     return  (
-
         <div className="penguin">
         <div className="penguin-bottom">
           <div className="right-hand"></div>
@@ -24,11 +23,7 @@ function Peng() {
           <div className="beak-bottom"></div>
         </div>
       </div>
-
-
-
     )
 }
-
 
 export default Peng;
