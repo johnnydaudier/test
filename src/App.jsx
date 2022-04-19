@@ -8,22 +8,12 @@ import Cart from './Components/Cart/Cart';
 import Account from './Components/Account/Account';
 import Others from './Components/Others/Others';
 import CartContextProvider from './Context/CartContext';
+import ControlledInput from './Components/Cart/ControlledInput';
 
 
-
-
-
-
-
-function App() {
- 
-  
-  const hi = 'Hola, este es un mensaje de saludo ';
- 
-  
-  
+function App() {  
+  const hi = 'Hola, este es un mensaje de saludo '; 
   return (
-
       <CartContextProvider>
               <BrowserRouter>              
                   <div
@@ -37,17 +27,14 @@ function App() {
                         <Route path='/cart' element={<Cart />} />   
                         <Route path='/*' element={<Navigate to='/' replace/>}/>     
                         <Route path='/account' element={<Account />} /> 
-                        <Route path='/others' element={<Others />} />                                   
+                        <Route path='/others' element={<Others />} /> 
+                        <Route path='/finalize' element={ <ControlledInput/> } /> 
+                                                        
                     </Routes>                    
                   </div>              
               </BrowserRouter>
-      </CartContextProvider>
-
-
-    
-
+      </CartContextProvider>   
   );
 }
-
 
 export default App;

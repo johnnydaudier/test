@@ -65,6 +65,12 @@ button .finishButton {
   background-color: #368f66 ;
   color: #c3cfc5;
 }
+input {
+  padding: 1rem;
+  border: 1px solid rgb(96, 6, 180);
+  border-radius: 0.5rem;
+  margin: 1rem ;
+}
 
 span {
   padding-left: 20px;
@@ -369,10 +375,8 @@ body {
   height: 10%;
   border-radius: 50%;
 }
-
-
-
 .penguin * {
   position: absolute;
 }
+
 
